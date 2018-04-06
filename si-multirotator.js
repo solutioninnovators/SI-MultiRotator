@@ -55,6 +55,7 @@ function SiMultiRotator(options) {
     var currentIndex = null;
     var slideshowInterval;
 
+
     // Initialization
     $thumbnails.on('click', function () {
         $this = $(this);
@@ -71,10 +72,10 @@ function SiMultiRotator(options) {
     });
 
     // Wait until the starting slide image has fully loaded before showing it
-    $displayImgs.first().on('load', function () {
+    //$displayImgs.filter('[data-index="' + config.startingIndex + '"]').first().on('load', function () {
         switchSlide(config.startingIndex);
         startSlideshow();
-    });
+    //});
 
 
     function startSlideshow() {
