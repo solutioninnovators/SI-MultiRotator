@@ -1,4 +1,4 @@
-# SI Multirotator - Takes a set of image thumbnails or other navigation elements and cycles through a corresponding set of images/content
+# SI Multirotator - Cycle through sets of related images/content, spread out across the page
 Developed by Mike Spooner (thetuningspoon) for Solution Innovators
 
 SI Modal enables opening any page or submitting any form to a responsive modal window.
